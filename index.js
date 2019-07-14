@@ -2,8 +2,9 @@ class BoardMember{
   constructor (name, homeState, training){
   this.name=name;
   this.homeState= homeState;
-  this.training=training;
-  this.veto= function(){
+  this.training=training;}
+  
+  veto(){
     return "No, I must disagree";
   };
   this.approve= function(){
